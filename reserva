@@ -1,0 +1,26 @@
+public class Reserva {
+    private String estadoDeConfirmacion;
+    private int fechaDeReserva;
+
+    public Reserva(String estadoDeConfirmacion, int fechaDeReserva) {
+        this.estadoDeConfirmacion = estadoDeConfirmacion;
+        this.fechaDeReserva = fechaDeReserva;
+        
+    }
+
+    public String getEstadoDeConfirmacion() {
+        return estadoDeConfirmacion;
+    }
+
+    public void setEstadoDeConfirmacion(String estadoDeConfirmacion) {
+        this.estadoDeConfirmacion = estadoDeConfirmacion;
+    }
+
+    public int getFechaDeReserva() {
+        return fechaDeReserva;
+    }
+
+    public void setFechaDeReserva(int fechaDeReserva) {
+        this.fechaDeReserva = fechaDeReserva;
+    }
+}
