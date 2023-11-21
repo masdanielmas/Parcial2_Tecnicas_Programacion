@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        String nombre= "";
+        String preferenciasAlimentarias="";
+        int numeroDePasaporte=0;
+        int capacidadPasajeros=0;
+
+
+        System.out.println("1.reserva");
+        System.out.println("2. buscar vuelos");
+        int opciones = scanner.nextInt();
+        Pasajero pasajero=new Pasajero();
+        vuelo vuelo = new vuelo();
+
+        switch (opciones){
+        case 1 : //reserva
+
+            break;
+        case 2 : //busqueda de vuelos
+
+
+            break;
+        default:
+            break;
+    }
+
+
+
+
+    }
+}
